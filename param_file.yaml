@@ -1,0 +1,17 @@
+acetate_reas_indx: [79,447,44,164,165,175,178,179,176,177,166,155,55] 
+acetate_target_rea_indx: 18 
+
+
+
+
+glucose_rea_indx: 24
+enz_ub: 0.82
+enz_lb: -1
+metab_size: 337
+grp_size: 2
+agent_num: 4
+warmup_its: 5
+total_its: 40
+step_size: 0.1
+
+
