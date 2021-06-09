@@ -415,7 +415,7 @@ def main():
     f = open("./param_file.yaml")
     param_dict = yaml.load(f)
     f.close()
-    product = "acetate"
+    product = "acetate" # It can be tested also for "succinate" and "ethanol" or any other product that its parameters are added to the param_file.yaml
     obj = Recommender(seed1,seed2,product,param_dict)
     obj.run()
 if __name__ == "__main__":
