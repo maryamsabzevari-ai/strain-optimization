@@ -1,5 +1,14 @@
-acetate_reas_indx: [79,447,44,164,165,175,178,179,176,177,166,155,55] 
-acetate_target_rea_indx: 18 
+acetate_reas_indx: [79,447,44,164,165,175,178,179,176,177,166,155,55]  
+#RPI, PFL, GLCptspp_ex_exi, HSK, THRS, IPPS, IPMD,OMCDC, IPPMIb, IPPMIa, HSDy, ASPK, LDH_D
+acetate_target_rea_indx: 18  #EX_ac(e)
+
+
+succinate_reas_indx:  [54,72,17,40,53,80] # ICL, PPC, ENO, FUM, ICDHyr, SUCCt2_2pp_ex_H
+succinate_target_rea_indx: 82 #SUCOS
+
+ethanol_reas_indx: [447,39,79,44,164,55,155,165,175,178,179,176,177]
+#PFL, FRD2, RPI, GLCptspp ex exi, HSK,LDH D, ASPK, THRS, IPPS, IPMD, OMCDC, IPPMIb, IPPMIa
+ethanol_target_rea_indx: 64 #PDH
 
 
 
