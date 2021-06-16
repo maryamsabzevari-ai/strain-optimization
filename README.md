@@ -6,14 +6,10 @@ E. coli (k-ecoli457), evaluating the sample complexity, noise tolerance, and sta
 designs.
 - For more information about the method and results check out the manuscript in "bioRxiv link"
 ## How to use the software
-The code can be run for a specific product ("acetate" determined in the main function of strain_recomendar.py) by providing a seed and running run.sh. For the paper, the results are averaged over the seeds provided in callrun.sh. 
-You can change the product= "acetate" line in strain_recomendar.py to optimize the yield for other products such as "succinate" or "ethanol" which their corresponding enzyme and target indexes are presented in "param_file.yaml". 
-The code can be run for any other enzymes (as controllable factors) and product (as target to be optimized), when you add the correponding indexes to the "param_file.yaml" file.
-
+You can run the code for a specific product ("acetate" determined in the main function of strain_recomendar.py) by providing a seed and running run.sh. For the manuscript, the results are averaged over the seeds provided in callrun.sh. You can change the product= "acetate" line in strain_recomendar.py to optimize the yield for other products such as "succinate" or "ethanol" which their corresponding enzyme and target indexes are presented in "param_file.yaml". The code can be run for other enzymes (as controllable factors) and products (as a target to be optimized) when you add the corresponding indexes to the "param_file.yaml" file.
 ## Dependencies
 - numpy
 - scikit-learn
-
 ## Citing the paper: 
 
 ## License
