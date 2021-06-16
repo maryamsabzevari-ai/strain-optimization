@@ -7,7 +7,7 @@
 
 module load anaconda3
 
-srun python str_recom_acet_gsch.py   $1 $1
+srun python strain_recomendar.py   $1 $1
 
                                             
 
